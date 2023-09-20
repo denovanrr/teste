@@ -1,12 +1,12 @@
 import Decimal from "break_infinity.js";
 const generics=0;
-   const upgrades={
-        genericmachine:{
-            amount:0,
-            gps: 1,
-            name:"criadora de numeros"
-        }
-    }
+const upgrades={
+genericmachine:{
+amount:0,
+gps: 1,
+name:"criadora de numeros"
+}
+};
 function thing_clicked(thing){
     upgrades[i].amount++;
     update_upgrades();
