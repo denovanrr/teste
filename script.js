@@ -1,4 +1,4 @@
-import Decimal from "break_infinity.js";
+import Decimal from "break_eternity.js";
 const generics=0;
 const upgrades={
 genericmachine:{
