@@ -1,9 +1,9 @@
 import Decimal from "break_eternity.js";
-const generics=0;
+generics= new Decimal(0);
 const upgrades={
 genericmachine:{
 amount:0,
-gps: 1,
+gps:1,
 name:"criadora de numeros"
 }
 };
