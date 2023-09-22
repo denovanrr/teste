@@ -1,6 +1,6 @@
 import Decimal from "break_eternity.js";
 generics= new Decimal(0);
-const upgrades={
+ upgrades={
 genericmachine:{
 amount:0,
 gps:1,
