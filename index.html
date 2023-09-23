@@ -4,36 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js">import Decimal from "break_eternity.js";
-        generics= new Decimal(0);
-         upgrades={
-        genericmachine:{
-        amount:0,
-        gps:1,
-        name:"criadora de numeros"
-        }
-        };
-        function thing_clicked(thing){
-            upgrades[i].amount++;
-            update_upgrades();
-        }
-        function update_upgrades(){
-            document.querySelector("#upgrades").innerHTML="";
-            for(i in upgrades){
-                document.querySelector("#upgrades").innerHTML+=`<br><button onclick="thing_clicked('${i}')">${upgrades[i].name}</button>`
-            }
-        }
-        
-        function updatecount(){
-            update_upgrades();
-            setInterval(() =>{
-                for(i in clicker.upgrades){
-                    generics+=upgrades[i].amount*upgrades[i].gps*generics/20;
-                    upgrades[i].amount+=upgrades[i].amount*upgrades[i].gps*generics/20;
-                }
-                document.querySelector("#generics").innerHTML=String(generics);
-            },50);
-        }
+    <script src="script.js">
     </script>
 </head>
 <body onload="updatecount()">
