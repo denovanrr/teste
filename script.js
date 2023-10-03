@@ -1,6 +1,6 @@
-import Decimal from "break_infinity.js";
+
 generics= new Decimal(0);
- upgrades={
+upgrades={
 genericmachine:{
 amount:0,
 gps:1,
